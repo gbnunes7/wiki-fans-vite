@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes,Route } from "react-router-dom"
 import Home from "./routes/Home"
-import CharacterDetail from "./CharacterDetail"
+import CharacterDetail from "./components/CharacterDetail"
 import InitialLayout from "./components/InitialLayout"
 
 function App() {

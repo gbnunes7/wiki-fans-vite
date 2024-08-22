@@ -12,18 +12,20 @@ const Home = () => {
     },[])
 
     return (
-        <>
-            <div className="h-screen flex flex-col">
-                <main className="bg-grey md:overflow-hidden h-full">
-                    <div className="bg-grey md:bg-white md:mx-auto flex md:h-full md:w-full md:max-w-5xl flex-col md:rounded-xl md:shadow-2xl my-10 md:max-h-[90%] md:relative md:py-4 items-center max-sm:gap-4">
-                        <h2 className="text-2xl">House of Dragons</h2>
-                        <ul className="mt-4 px-3.5 flex gap-8 justify-center flex-wrap">
-                            {characters.map(character => <Link key={character.id} to={`/characterDetail/${character.id}`}> <li><Card src={character.imagem} alt={character.alt} nome={character.nome}/></li></Link>)}
-                        </ul>
-                    </div>
-                </main> 
-            </div> 
-        </>
+        <div className="h-screen bg-grey flex items-center justify-center"> 
+            <div className="bg-white rounded-lg shadow-2xl max-w-4xl w-full flex flex-col pb-24 pt-12 px-12 mb-24"> 
+                <h2 className="text-3xl text-center mb-4">House of Dragons</h2> 
+                <ul className="mt-4 px-3.5 flex gap-8 justify-center gap-12 flex-wrap">
+                    {characters.map(character => (
+                        <Link key={character.id} to={`/characterDetail/${character.id}`}>
+                            <li className="transform hover:scale-105 transition duration-300 ease-in-out"> 
+                                <Card src={character.imagem} alt={character.alt} nome={character.nome} />
+                            </li>
+                        </Link>
+                    ))}
+                </ul>
+            </div>
+        </div> 
     )
 }
 

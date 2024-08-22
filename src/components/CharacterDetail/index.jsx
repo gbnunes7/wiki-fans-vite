@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import { motion } from "framer-motion"
+import { IoArrowBack } from "react-icons/io5";
 
 const CharacterDetail = () => {
 
+    const navigate = useNavigate();
     const {id} = useParams()
     const [character, setCharacter] = useState([])
     const [isHovered, setIsHovered] = useState(false);
@@ -23,7 +25,10 @@ const CharacterDetail = () => {
     return (
         <div className="h-screen bg-grey flex items-center justify-center"> 
             <div className="bg-white rounded-lg shadow-2xl max-w-4xl w-full flex flex-col pb-24 pt-12 px-4 mb-24"> 
-                <h2 className="text-3xl text-center mb-4">House of Dragons</h2> 
+                    <div className="flex justify-around">
+                        <button onClick={() => navigate(-1)} className="relative right-8 bottom-2"><IoArrowBack/></button>
+                        <h2 className="text-3xl mb-4 relative right-28">House of Dragons</h2> 
+                    </div>
                     <div className="mt-4 mr-3 flex gap-8 justify-between mx-24 ">
                         <motion.img 
                         src={isHovered ? character.hoverImage : character.imagem} 

@@ -3,7 +3,7 @@ import Home from "./routes/Home"
 import CharacterDetail from "./components/CharacterDetail"
 import InitialLayout from "./components/InitialLayout"
 
-function App() {
+function AppRoutes() {
   
   return (
     <BrowserRouter>
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default AppRoutes

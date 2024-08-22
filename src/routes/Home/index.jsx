@@ -12,7 +12,7 @@ const Home = () => {
     },[])
 
     return (
-        <div className="min-h-screen bg-grey flex items-center justify-center"> 
+        <div className="md:h-screen bg-grey flex items-center justify-center"> 
             <div className="bg-white rounded-lg shadow-2xl max-w-4xl w-full flex flex-col pb-24 pt-12 px-12 mb-24"> 
                 <h2 className="text-3xl text-center mb-4">House of Dragons</h2> 
                 <ul className="mt-4 px-3.5 flex gap-8 justify-center gap-12 flex-wrap">

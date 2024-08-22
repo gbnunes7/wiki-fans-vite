@@ -7,38 +7,61 @@
             "nickname":"First of His Name",
             "dragao":"Syrax",
             "age":"32",
-            "enemies":"Hightower's"
+            "enemies":"Hightower's",
+            "house": "Targaryen",
+            "hoverImage":"https://static.wikia.nocookie.net/gameofthrones/images/6/61/Syrax_Official_Guide.jpg"
         },
         {
-            "imagem":"https://pm1.aminoapps.com/8414/3adf5a076e9ec7b55fb5084d301c349667381f9br1-750-937v2_00.jpg",
-            "alt":"Rhaenyra Targaryen",
-            "nome": "Rhaenyra Targaryen",
-            "idade":"32",
-            "dragao":"Syrax"
+            "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6jaZ0C4ZCfiimi-b2L7bu8ggCXXenWMJSAw&s",
+            "alt":"Daemon Targaryen",
+            "nome": "Daemon Targaryen",
+            "nickname":"Rebel prince",
+            "dragao":"Caraxes",
+            "age":"45",
+            "enemies":"Hightower's and Criston Cole",
+            "house": "Targaryen",
+            "hoverImage":"https://cdnb.artstation.com/p/assets/images/images/056/612/509/large/clark-ocleasa-caraxes.jpg"
         },{
-            "imagem":"https://pm1.aminoapps.com/8414/3adf5a076e9ec7b55fb5084d301c349667381f9br1-750-937v2_00.jpg",
-            "alt":"Rhaenyra Targaryen",
-            "nome": "Rhaenyra Targaryen",
-            "idade":"32",
-            "dragao":"Syrax"
+                
+            "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ku5sD6rjOxarFSX19JU_VJ-Q9U0fiCEe0Q&s",
+            "alt":"Alicent Hightower",
+            "nome": "Alicent Hightower",
+            "nickname":"The Queen",
+            "age":"32",
+            "enemies":"Rhaenyra and Daemon Targaryen",
+            "house": "Hightower",
+            "hoverImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ku5sD6rjOxarFSX19JU_VJ-Q9U0fiCEe0Q&s"
         },{
-            "imagem":"https://pm1.aminoapps.com/8414/3adf5a076e9ec7b55fb5084d301c349667381f9br1-750-937v2_00.jpg",
-            "alt":"Rhaenyra Targaryen",
-            "nome": "Rhaenyra Targaryen",
-            "idade":"32",
-            "dragao":"Syrax"
+
+            "imagem":"https://i.pinimg.com/736x/7e/d4/89/7ed48912c8301db66601a5e24f475619.jpg",
+            "alt":"Aegon II Targaryen",
+            "nome": "Aegon II Targaryen",
+            "nickname":"King Aegon II",
+            "dragao":"Sunfyre",
+            "age":"25",
+            "enemies":"Rhaenyra and Daemon Targaryen",
+            "house": "Targaryen and Hightower",
+            "hoverImage":"https://static.wikia.nocookie.net/gameofthrones/images/5/53/Sunfyre_2x4.png"
         },{
-            "imagem":"https://pm1.aminoapps.com/8414/3adf5a076e9ec7b55fb5084d301c349667381f9br1-750-937v2_00.jpg",
-            "alt":"Rhaenyra Targaryen",
-            "nome": "Rhaenyra Targaryen",
-            "idade":"32",
-            "dragao":"Syrax"
+            "imagem":"https://helios-i.mashable.com/imagery/articles/00oAV27y3CpW3pC8t6eBoWY/hero-image.fill.size_1200x1200.v1665741299.jpg",
+            "alt":"Viserys I Targaryen",
+            "nome": "Viserys I Targaryen",
+            "nickname":"King Viserys",
+            "dragao":"Balerion",
+            "age":"52",
+            "enemies":"Whoever is against the peace of the realm",
+            "house": "Targaryen",
+            "hoverImage":"https://i.pinimg.com/550x/3f/59/b6/3f59b689012d003cfcbe9c869d9adc85.jpg"  
         },{
-            "imagem":"https://pm1.aminoapps.com/8414/3adf5a076e9ec7b55fb5084d301c349667381f9br1-750-937v2_00.jpg",
-            "alt":"Rhaenyra Targaryen",
-            "nome": "Rhaenyra Targaryen",
-            "idade":"32",
-            "dragao":"Syrax"
+            "imagem":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQANG8KLY4AYTdd508zllhFVWo_IyGBuBs_-A&s",
+            "alt":"Aemond Targaryen",
+            "nome": "Aemond Targaryen",
+            "nickname":"Aemond One-Eye",
+            "dragao":"Vaghar",
+            "age":"24",
+            "enemies":"Rhaenyra and Daemon Targaryen Lucerys Velaryon",
+            "house": "Targaryen and Hightower",
+            "hoverImage":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c3e4a6a2-3cdf-4e33-a00f-302d99bba824/dhlw935-a852bedf-5aa8-4b3e-81ec-58b6a551c4d5.jpg/v1/fill/w_1280,h_1269,q_75,strp/vhagar_by_yoksaart_dhlw935-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI2OSIsInBhdGgiOiJcL2ZcL2MzZTRhNmEyLTNjZGYtNGUzMy1hMDBmLTMwMmQ5OWJiYTgyNFwvZGhsdzkzNS1hODUyYmVkZi01YWE4LTRiM2UtODFlYy01OGI2YTU1MWM0ZDUuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.BG3FFkevEww3x7f0EcFgmdjXfl7PjC1NZWpEQWvnFhE"
         }
     ]
 }

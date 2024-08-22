@@ -18,3 +18,5 @@ function AppRoutes() {
 }
 
 export default AppRoutes
+
+//v1.0.0 release

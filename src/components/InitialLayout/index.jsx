@@ -14,9 +14,8 @@ const InitialLayout = () => {
     <>
         {isModalOpen && <Modal onClick={toggleModal} />}
         <Header onClick={toggleModal}/>
-        <main className="bg-grey md:overflow-hidden h-full">
-            <Outlet/>
-        </main>
+        <Outlet/>
+        
     </>
     )
         

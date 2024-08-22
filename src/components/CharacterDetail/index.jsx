@@ -24,16 +24,16 @@ const CharacterDetail = () => {
 
     return (
         <div className="h-screen bg-grey flex items-center justify-center"> 
-            <div className="bg-white rounded-lg shadow-2xl max-w-4xl w-full flex flex-col pb-24 pt-12 px-4 mb-24"> 
-                    <div className="flex justify-around">
-                        <button onClick={() => navigate(-1)} className="relative right-8 bottom-2"><IoArrowBack/></button>
-                        <h2 className="text-3xl mb-4 relative right-28">House of Dragons</h2> 
+            <div className="bg-white rounded-lg shadow-2xl mx-2 py-4 md:max-w-4xl md:w-full flex flex-col md:pb-24 md:pt-12 md:px-4 md:mb-24"> 
+                    <div className="flex justify-center md:justify-around">
+                        <button onClick={() => navigate(-1)} className="md:relative md:right-8 md:bottom-2"><IoArrowBack/></button>
+                        <h2 className="text-3xl mb-4 md:relative md:right-28">House of Dragons</h2> 
                     </div>
-                    <div className="mt-4 mr-3 flex gap-8 justify-between mx-24 ">
+                    <div className="mt-4 mr-3 flex flex-col md:flex-row gap-8 justify-between items-center mx-24 ">
                         <motion.img 
                         src={isHovered ? character.hoverImage : character.imagem} 
                         alt={character.alt} 
-                        className="w-52 h-80 rounded m-2 shadow-2xl shadow-black object-cover" 
+                        className="w-52 h-80 rounded m-2 shadow-2xl mr-auto shadow-black object-cover" 
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                         initial={{ opacity: 0.8 }}
@@ -48,9 +48,9 @@ const CharacterDetail = () => {
                             <p className="mt-3 text-2xl">Age: {character.age}  </p>
                             <p className="mt-3 text-2xl">Enemies: {character.enemies}  </p>
                         </div>
+                        </div>
                     </div>
                 </div>
-        </div> 
     )
 }
 

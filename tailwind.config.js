@@ -10,7 +10,9 @@ export default {
       "primary-red": "#D32F2F",
       "white": "#ffffff",
       "grey":"rgb(245,245,245)",
-      "dark-grey-modal":"rgba(33, 33, 33, 0.7);"
+      "dark-grey-modal":"rgba(33, 33, 33, 0.7);",
+      "black":"#6d6d6d",
+      "light-red":"#FF7F7F"
     },
   },
   plugins: [],

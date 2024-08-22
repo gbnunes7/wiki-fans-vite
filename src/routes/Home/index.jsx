@@ -18,7 +18,7 @@ const Home = () => {
                 <ul className="mt-4 px-3.5 flex gap-8 justify-center gap-12 flex-wrap">
                     {characters.map(character => (
                         <Link key={character.id} to={`/characterDetail/${character.id}`}>
-                            <li className="transform hover:scale-105 transition duration-300 ease-in-out"> 
+                            <li> 
                                 <Card src={character.imagem} alt={character.alt} nome={character.nome} />
                             </li>
                         </Link>

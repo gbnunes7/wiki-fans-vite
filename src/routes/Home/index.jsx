@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Card from "../Card";
-import Header from "../Header";
-import Modal from "../Modal";
+import Card from "../../components/Card";
+import Header from "../../components/Header";
+import Modal from "../../components/Modal";
 
 const Home = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);

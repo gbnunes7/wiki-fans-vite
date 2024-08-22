@@ -8,8 +8,6 @@ Welcome to my repository, Wikipedia for fans. It showcases the main characters f
 
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
-  - [Frontend](#frontend)
-  - [Backend](#backend)
 - [Installation](#installation)
 - [What's coming up](#whats-coming-up)
 - [Conclusion](#conclusion)
@@ -78,7 +76,7 @@ This starts the React application on `http://localhost:5173` (or another availab
 
 ### Deployed Version
 
-You can also visit the deployed version of the application [here](https://github.com/ProgramadoresSemPatria/full-stack-template/edit/main/README.md).
+You can also visit the deployed version of the application [here](https://wiki-fans-vite.vercel.app).
 
 ## What's coming up
 

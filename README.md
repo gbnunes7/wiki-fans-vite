@@ -85,6 +85,8 @@ In the next version, new features will be added:
 - Backend in Node.js
 - Create your own character
 - Create a series
+- add error handling
+- add loading state management
 ## Conclusion
 
 This application setup is intended to accelerate the development process by providing a cohesive blend of some of the best technologies in web development today. Whether you're looking to create a small prototype or build a large-scale application, this repository provides a solid foundation. Happy coding!

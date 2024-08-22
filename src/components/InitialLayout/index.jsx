@@ -1,4 +1,7 @@
 import { Outlet } from "react-router-dom"
+import { useState } from "react";
+import Header from "../Header";
+import Modal from "../Modal"
 
 const InitialLayout = () => {
 
@@ -18,3 +21,5 @@ const InitialLayout = () => {
     )
         
 }
+
+export default InitialLayout

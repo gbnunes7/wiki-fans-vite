@@ -10,7 +10,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={<InitialLayout/>}> 
           <Route path="/" element={<Home/>}/>
-          <Route path="/characterDetail/:id" element={<CharacterDetail/>}/>
+          <Route path="/characterDetail/:idJson" element={<CharacterDetail/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

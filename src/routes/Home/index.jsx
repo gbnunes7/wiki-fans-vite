@@ -6,7 +6,7 @@ const Home = () => {
     const [characters, setCharacters] = useState([])
 
     useEffect(() => {
-         fetch('http://localhost:3000/characters')
+         fetch('https://json-server-vercel-kappa-coral.vercel.app/characters')
             .then(resposta => resposta.json())
             .then(dados => setCharacters(dados))
     },[])
@@ -17,7 +17,7 @@ const Home = () => {
                 <h2 className="text-3xl text-center mb-4">House of Dragons</h2> 
                 <ul className="mt-4 px-3.5 flex gap-8 justify-center gap-12 flex-wrap">
                     {characters.map(character => (
-                        <Link key={character.id} to={`/characterDetail/${character.id}`}>
+                        <Link key={character.idJson} to={`/characterDetail/${character.idJson}`}>
                             <li> 
                                 <Card src={character.imagem} alt={character.alt} nome={character.nome} />
                             </li>

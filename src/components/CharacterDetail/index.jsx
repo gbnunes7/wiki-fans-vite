@@ -6,21 +6,21 @@ import { IoArrowBack } from "react-icons/io5";
 const CharacterDetail = () => {
 
     const navigate = useNavigate();
-    const {id} = useParams()
-    const [character, setCharacter] = useState([])
+    const {idJson} = useParams()
+    const [character, setCharacter] = useState({})
     const [isHovered, setIsHovered] = useState(false);
 
     useEffect(() => {
-        console.log("Fetching character with id:", id)
-        fetch('http://localhost:3000/characters')
+        console.log("Fetching character with id:", idJson)
+        fetch('https://json-server-vercel-kappa-coral.vercel.app/characters')
         .then(response => response.json())
         .then(data => {
-            const foundCharacter = data.find(char => char.id === id);
+            const foundCharacter = data.find(char => char.idJson == idJson);
             setCharacter(foundCharacter || {});
             console.log(foundCharacter)
         })
         .catch(error => console.error("Error fetching data: ", error));
-    }, [id]);
+    }, [idJson]);
 
     return (
         <div className="h-screen bg-grey flex items-center justify-center"> 

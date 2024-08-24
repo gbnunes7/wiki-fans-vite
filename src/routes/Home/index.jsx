@@ -4,12 +4,17 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     const [characters, setCharacters] = useState([])
-
     useEffect(() => {
-         fetch('https://json-server-vercel-kappa-coral.vercel.app/characters')
+         fetch('/data/db.json')
             .then(resposta => resposta.json())
             .then(dados => setCharacters(dados))
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+                // Tratar o erro aqui
+              })
     },[])
+
+
 
     return (
         <div className="md:h-screen bg-grey flex items-center justify-center"> 

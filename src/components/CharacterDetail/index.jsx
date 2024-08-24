@@ -12,7 +12,7 @@ const CharacterDetail = () => {
 
     useEffect(() => {
         console.log("Fetching character with id:", idJson)
-        fetch('https://json-server-vercel-kappa-coral.vercel.app/characters')
+        fetch('/data/db.json')
         .then(response => response.json())
         .then(data => {
             const foundCharacter = data.find(char => char.idJson == idJson);
